@@ -1,0 +1,169 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  color: dimgray;
+  padding: 30px 0px;
+}
+
+.text_highlight {
+  color: #ec4c7a;
+  font-weight: bold;
+}
+
+section {
+  height: 475px;
+  padding: 80px 0px;
+}
+
+.header_section {
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.half_width {
+  width: 35%;
+  margin-left: 7%;
+  padding-left: 5%;
+  float: left;
+}
+
+.half_width img {
+  width: 100%;
+}
+
+.link_button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ec4f91, #ec4b74);
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.link_button:hover {
+  background-image: linear-gradient(45deg, #0000ff, #00ffff);
+}
+
+.biograpy_section {
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.latest_work_section {
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.work_img {
+  width: 25%;
+  float: left;
+  margin: 0 2%;
+  padding: 6% 0% 0% 4%;
+}
+.latest_work_section img {
+  width: 100%;
+  height: 100%;
+}
+
+.biography {
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.biography h4 {
+  color: gray;
+  font-weight: 600;
+}
+
+.biography q {
+  width: 40%;
+  display: block;
+  margin: 3% auto;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.biography .leave_message {
+  background-image: linear-gradient(45deg, #ec4f91, #ec4b74);
+  color: white;
+  width: 30%;
+  margin: 7% auto;
+  font-weight: 700;
+  padding: 2% 12% 4%;
+  border-radius: 5px;
+}
+
+.biography .leave_message a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.biography .leave_message a:hover {
+  color: cyan;
+}
+
+.biography .leave_message h4 {
+  color: white;
+  font-weight: 400;
+}
+
+.experiences_area {
+  background-image: url(images/experiences_area.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.experiences_area h2 {
+  margin-left: 7%;
+}
+
+.single_experiences {
+  box-shadow: 10px 10px 40px gray;
+  height: 80%;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#full_stack_web {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, #ec4f91, #ec4b74);
+  border-image-slice: 1;
+}
+
+#baby_web {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+footer {
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer p {
+  text-align: center;
+}
